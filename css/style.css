@@ -1,0 +1,87 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  background-image: url(https://media.cntraveler.com/photos/5a8c5810e9c49e2e4d80a489/16:9/w_2560,c_limit/Cat-Cafe-MoCHA_2018_20170525A_012_h.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 120px 0;
+}
+
+.banner .container {
+  padding: 100px;
+}
+
+.banner a {
+  display: inline-block;
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  border: 2px solid white;
+}
+
+.banner a:hover {
+  background-color: #000000;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.cards {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+.container .cards .card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(193, 184, 184);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(210, 201, 201);
+  background-color: white;
+}
+
+.cards p {
+  color: gray;
+}
+
+.cards img {
+  width: 150px;
+}
+
+.footer .links a {
+  color:#1EDD88;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
